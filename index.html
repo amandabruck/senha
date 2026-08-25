@@ -1,21 +1,24 @@
 <div class="parametro-senha">
     <h4 class="parametro-senha_titulo">numero de caractres</h4>
-    <div clas="parametro-senha_botao">
-        <buton class="parametro-senha_texto">12</p>
+    <div clas="parametro-senha_botoes">
+        <button class="parametro-senha_botao">-<button>
+        <p class="parametro-senha_texto">12</p>
             <button class="parametro-senha_botao">+<button>
+        </div>
+      </div>
                 <!DOCTYPE html>
                 <html lang="pt-BR"
                 <head>
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title> Gerador de Senhas</title>
+                    <title> gerador de senhas</title>
                     <link rel="stylesheet"href=style.css">
 
                     </head>
                     <body>
 
                     <div class="container">
-                    <h1>Gerador de Senhas</h1>
+                    <h1>gerador de senhas</h1>
 
         
                 <div class="senha-box">
@@ -23,12 +26,31 @@
                     <button id="copiar">Copiar</button>
                 </div>
 
-                    </div> class="opcao">
-                    <label>Letras Maiusculas <input type="number" id="tamanho" value="12" min="4" max="32></label>
-                    
+                    <div class="opcao">
+                    <label>Tamanho: <input type="number" id="tamanho" value="12" min="4" max="32></label>
+                    </div>
 
+                        <div class="opcao">
+                    </label>letras maiusculas <input typ="checkbox" id="maiusculas" checked></label>
+                </div>
 
-                </head>
+            <div class="opcao">
+                    </label>letras minusculas <input typ="checkbox" id="minusculas" checked></label>
+                </div>
 
-    </div>
+                 <div class="opcao">
+                    </label>numeros <input typ="checkbox" id="numeros" checked></label>
+                </div>
+
+                <div class="opcao">
+                    </label>simbolos !@#$ <input typ="checkbox" id="simbolos" checked></label>
+                </div>
+
+                    <button id="gerar">gerar senha</button>
+                    <p classs="forca" id="forca"></p>
+                </div>
+
+                <script src="script.js"></script>
+            </body>
+            </html>
 </div>
